@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c180a0eba8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name1.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full stack developer</p>
+                <h1> Hi, I'm <span>Kirubakaran</span><br> from Erode</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/kiruba-removebg-preview1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Ambitious Computer Science student with expertise in full-stack, front-end, and mobile development. Skilled in
+                        integrating APIs, managing databases, and building user-focused applications with Flutter, Kotlin, and ReactJS.
+                        Dedicated to delivering high-quality software solutions and continuously enhancing technical skills.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skils -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designing Web/App interface</li>
+                            <li><span>Web development</span><br> Web App development</li>
+                            <li><span>App development</span><br>Building Android/ios apps </li>
+                            <li><span>App testing</span><br>Testing Manual/Automation for web/apps</li>
+                        </ul>
+                    </div>
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2024 - August 2024</span> <br>Software Developer Intern At Agnitio Systems, Coimbatore</li>
+                            <li><span>Setember 2023 - March 2024</span><br> Software Development Internship At ArgenBright Innovation Labs, Bengaluru</li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span> <br>B.E - CSE , Karpagam college of Engineering <br>CGPA - 8.76</li>
+                            <li><span>2019 - 2020</span> <br>HSLC , St.Ignatius Hr Sec School, Buthapadi <br>Passed with 80%</li>
+                            <li><span>2017 - 2018</span> <br>SSLC , St.Michael's High School, Michaelpalayam <br>Passed with 86%</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating Responsive, User-Friendly, and Modern Websites</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>Designing Seamless and Engaging Mobile Experiences</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-autoprefixer"></i>
+                <h2>Automation</h2>
+                <p>Streamlining Processes with Efficient Automation Solutions</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- ..............portfolio........... -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/smart book mark.png">
+                <div class="layer">
+                    <h3> Smartbook mark Extension </h3>
+                    <p>
+                        Chrome extension designed to streamline the process of saving and organizing links directly within the browser
+                    </p>
+                    <a href="https://github.com/Kirubakarank007/Extension-Smart-Bookmark">
+                        <i class="fas fa-external-link-alt" ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/orgo1.png">
+                <div class="layer">
+                    <h3>Orgo products web </h3>
+                    <p>The development of an e-commerce platform tailored for organic farmers to sell their products.</p>
+                    <a href="https://github.com/Kirubakarank007/Orgo">
+                        <i class="fas fa-external-link-alt" ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/can_i_serve.png">
+                <div class="layer" >
+                    <h3>Mobile design</h3>
+                    <p>The design creation for can i serve app for mobile.It's like service based application.</p>
+                    <a href="https://www.figma.com/design/x5SxDUKKpRwv6Tvni3IWVZ/Catering-Service?node-id=0-1&t=BqBxYG5WJ5YQq0Fe-0  ">
+                        <i class="fas fa-external-link-alt" ></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="work-list1" id="work-list1">
+            <div class="work">
+                <img src="images/Customer_setup.png">
+                <div class="layer" >
+                    <h3>Feature</h3>
+                    <p>Create the features for Peazy app during internship.using maptiler to load map</p>
+                    <a href="https://github.com/Kirubakarank007/customer-setup-frontend">
+                        <i class="fas fa-external-link-alt" ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/login.png">
+                <div class="layer" >
+                    <h3>Can_I_Serve App</h3>
+                    <p>This catering service provider app has two separate logins for job seekers and job providers. Job seekers can browse available catering jobs and apply, while job providers can post job openings and manage applications </p>
+                    <a href="https://github.com/Kirubakarank007/Can_I_Serve">
+                        <i class="fas fa-external-link-alt" ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#portfolio" class="btn" id="seeMoreBtn" onclick="hideButton()">See more</a>
+    
+</div>
+
+<!-- contect -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>kirubakaran02002@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+91 6383725935</p>
+                <div class="social-icons">
+                    <a href=""> <i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kirubakaran007/"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Kirubakarank007"> <i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/KIRUBAKARAN_K_RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows=6 placeholder="Your Message"  id=""></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kirubakaran.<i class="fas fa-heart"></i> </p>
+    </div>
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+              tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("side-menu")
+    function openMenu(){
+        sidemenu.style.right="0"
+    }
+    function closeMenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyJF3sun6wGzSXccFase3Bk7L8U-IKKmpzMAo-3Mgdb8zL--jAlVenwPEL24gtEmU8tFQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      msg.innerHTML="Sending . . ."
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    function hideButton() {
+    var button = document.getElementById("seeMoreBtn");
+    var workList=document.getElementById("work-list1")
+    button.style.display = "none";
+    workList.style.display="grid"
+
+    }
+  </script>
+
+</body>
+</html>
